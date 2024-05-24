@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Poppins", "sans-serif";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+}
+
+
+.card {
+    border-radius: 30px;
+    margin: 30px;
+    padding: 15px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    overflow: hidden;
+
+    display: flex; /* Use flexbox to align content */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-end;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+img {
+    max-width: auto;
+    height: 300px;
+    border-radius: 30px;
+    float: right;
+} 
+
+.content {
+    margin-right: 15px; /* Add some space between content and image */
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+} 
+
+li {
+    font-size: 19px;
+}
+
+
+
+
+
