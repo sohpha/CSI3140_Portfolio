@@ -11,28 +11,65 @@
 
 .header{
     position: fixed;
+    background-color: hotpink;
     top: 0; 
     left: 0; 
     width: 100%;
     padding: 35px 12%; 
-    background:rgba(0, 0, 0, 0) ;
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    z-index:100;
+    font-size: larger; 
  }
-.navbar{
-    font-size: 18px; 
-    color:white;
+.header-nav{
+    
+    /* color:white; */
     font-weight: 500; 
+    display: flex; 
+    gap: 100px; 
     margin: 0  20px;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
 }
 
-.navbar a:hover, 
-.navbar a.active{ 
-    color:green;
-    border-bottom: 3px solid green;
+.header-nav a:hover, 
+.header-nav a.active{ 
+    color:blue;
+    border-bottom: 3px solid blue;
+}
+
+.logo{
+    font-size: x-large;
+    font-weight: 600; 
+    transition: 0.3s ease;
+
+}
+
+.logo:hover{ 
+    text-shadow: 0 0 25px orange,
+    0 0 50px orange;
+    transform: scale(1.1)
+}
+
+.footer{
+    position: fixed;
+    background-color: hotpink;
+    bottom: 0; 
+    width: 100%;
+    padding: 35px 12%; 
+    display: flex;
+    justify-content: center;
+    font-size:larger; 
+}
+.footer-nav{
+    font-weight: 500; 
+    display:flex; 
+    gap: 100px; 
+}
+
+.footer-nav a:hover, 
+.footer-nav a.active{ 
+    color:blue;
+    border-bottom: 3px solid blue;
 }
