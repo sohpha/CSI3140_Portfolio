@@ -1,8 +1,13 @@
 
+@font-face {
+    font-family: "Poppins", "sans-serif";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; 
+    /*font-family: 'Poppins', sans-serif; */
     text-decoration: none; 
     color: black;
 }
@@ -78,4 +83,63 @@
 .footer-nav a.active{ 
     color:blue;
     border-bottom: 3px solid blue;
+}
+
+
+.card {
+    background-color: rgb(26, 24, 24);
+    border-radius: 30px;
+    margin: 30px;
+    padding: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(26, 24, 24);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    max-width: auto;
+    height: 450px;
+    border-radius: 30px;
+    float: right;
+} 
+
+
+.card .content {
+    margin-right: 15px;
+    position: relative;
+}
+
+.top-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float-right {
+   float:right;
+}
+
+.float-left {
+    float: left;
+}
+
+button {
+    background-color: rgb(26, 24, 24);
+    border-radius: 15px;
+    border: none;
+    outline: 0;
+    color: white;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
 }
