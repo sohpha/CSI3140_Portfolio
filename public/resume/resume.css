@@ -1,48 +1,41 @@
+@font-face {
+    font-family: "Poppins", "sans-serif";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+}
+
 body {
     margin: 40px;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 8%, rgba(151,55,156,1) 14%, rgba(232,64,79,1) 29%, rgba(255,105,180,1) 50%, rgba(232,64,79,1) 71%, rgba(151,55,156,1) 86%, rgba(131,58,180,1) 92%);
+    background: rgb(55,156,154);
+    background: linear-gradient(90deg, rgba(55,156,154,1) 5%, rgba(155,64,232,1) 30%, rgba(55,156,154,1) 50%, rgba(155,64,232,1) 70%, rgba(55,156,154,1) 95%);
     color: white;
    
 
 }
 
 .card {
-    background-color: rgb(26, 24, 24);
-    border-radius: 30px;
-    margin: 30px;
-    padding: 20px;
-    border: 5px;
-    border-style: solid;
-    border-color: rgb(26, 24, 24);
-
+    flex-direction: column;
 }
-header, section, footer {
-    margin-bottom: 30px;
-    tab-size: 8;
-    margin-bottom: 150px;
 
 h1 {
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+
 }
 
 h2 {
-    margin-bottom: 20px;
-    border-style:solid;
-    background-color: mediumorchid;
+    font-size: 30px;
+
+} 
+
+h3 {
+    font-size:20px;
+
+}
+
+li {
+    font-size: 18px;
+
+}
+
+h1, h2, h3, li, b, p {
     color: white;
-    
-    
-}
-ul {
-    list-style-type: none;
-    padding: 0;
-    tab-size: 20;
-    font-size: 20px;
-
-}
-p{
-    text-align: center;
-
 }
