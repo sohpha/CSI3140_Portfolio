@@ -1,0 +1,49 @@
+body {
+    margin: 40px;
+    background: rgb(55, 80, 156);
+    background: linear-gradient(90deg, rgba(55, 80, 156, 1) 0%, rgba(155, 64, 232, 1) 30%, rgba(64, 131, 232, 1) 50%, rgba(155, 64, 232, 1) 70%, rgba(55, 80, 156, 1) 100%);
+}
+
+form {
+   /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.message-box {
+    width: 900px;
+    height: 450px;
+    border-radius: 15px;
+    border: none;
+}
+
+.field {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    color: black;
+    width: 150px;
+    margin-left: 0px; 
+}
