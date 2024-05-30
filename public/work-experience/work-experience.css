@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Poppins", "sans-serif";
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+}
+
+body {
+    margin: 40px;
+    background: rgb(64,131,232);
+    background: linear-gradient(90deg, rgba(64,131,232,1) 0%, rgba(55,138,156,1) 8%, rgba(64,232,186,1) 25%, rgba(55,154,156,1) 50%, rgba(64,232,186,1) 75%, rgba(55,138,156,1) 92%, rgba(64,131,232,1) 100%);
+}
+
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+} 
+
+h3 {
+    font-size:20px;
+    color: white;
+}
+
+h4 {
+    font-size: 15px;
+    color: white;
+}
+
+li {
+    font-size: 18px;
+    color: white;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-title h2, .job-title h4 {
+    margin: 0; 
+    padding: 0; 
+}
+
+.job-title h4 {
+    margin-top: 5px;
+}
