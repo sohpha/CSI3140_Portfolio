@@ -5,7 +5,6 @@ body {
 }
 
 form {
-   /* display: inline-block; */
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -31,7 +30,6 @@ form {
     align-items: flex-start;
     margin-bottom: 15px;
 }
-
 
 h1 {
     font-size: 40px;

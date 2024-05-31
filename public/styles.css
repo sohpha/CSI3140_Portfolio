@@ -1,101 +1,103 @@
-
 @font-face {
     font-family: "Poppins", "sans-serif";
     src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 }
 
-*{
+* {
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none; 
+    text-decoration: none;
     color: black;
 
-    
-}
-body{
-    background: rgb(156,55,143);
-    background: linear-gradient(90deg, rgba(156,55,143,1) 5%, rgba(155,64,232,1) 20%, rgba(156,55,143,1) 50%, rgba(155,64,232,1) 80%, rgba(156,55,143,1) 95%);
+
 }
 
-.header{
+body {
+    background: rgb(156, 55, 143);
+    background: linear-gradient(90deg, rgba(156, 55, 143, 1) 5%, rgba(155, 64, 232, 1) 20%, rgba(156, 55, 143, 1) 50%, rgba(155, 64, 232, 1) 80%, rgba(156, 55, 143, 1) 95%);
+}
+
+.header {
     position: fixed;
-    background-color:rgb(26, 24, 24);
-    top: 0; 
-    left: 0; 
+    background-color: rgb(26, 24, 24);
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 35px 12%; 
+    padding: 35px 12%;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
-    font-size: larger; 
- }
-.header-nav{
-
-    font-weight: 500; 
-    display:flex; 
-    gap: 100px; 
+    align-items: center;
+    font-size: larger;
 }
-.header a{
+
+.header-nav {
+
+    font-weight: 500;
+    display: flex;
+    gap: 100px;
+}
+
+.header a {
     color: white;
 }
 
-.header-nav a:hover, 
-.header-nav a.active{ 
-    color:blue;
+.header-nav a:hover,
+.header-nav a.active {
+    color: blue;
 }
 
-.contact{
-    padding: 10px 28px; 
-    background-color:rgb(26, 24, 24);
-    border-radius: 10px; 
+.contact {
+    padding: 10px 28px;
+    background-color: rgb(26, 24, 24);
+    border-radius: 10px;
     box-shadow: 0 0 25px white;
-    
+
 }
-.contact:hover{ 
+
+.contact:hover {
     background-color: orange;
     box-shadow: 0 0 25px orange;
 
 }
 
-
-
-.logo{
+.logo {
     font-size: x-large;
-    font-weight: 600; 
+    font-weight: 600;
     transition: 0.3s ease;
 
 }
 
-.logo:hover{ 
+.logo:hover {
     text-shadow: 0 0 25px orange,
-    0 0 50px orange;
+        0 0 50px orange;
     transform: scale(1.1)
 }
 
-.footer{
+.footer {
     position: fixed;
-    background-color:rgb(26, 24, 24);
-    bottom: 0; 
+    background-color: rgb(26, 24, 24);
+    bottom: 0;
     width: 100%;
-    padding: 35px 12%; 
+    padding: 35px 12%;
     display: flex;
     justify-content: center;
-    font-size:larger; 
+    font-size: larger;
 }
+
 .footer a {
     color: white;
 }
 
-.footer-nav{
-    font-weight: 500; 
-    display:flex; 
-    gap: 100px; 
-    
+.footer-nav {
+    font-weight: 500;
+    display: flex;
+    gap: 100px;
+
 }
 
-.footer-nav a:hover, 
-.footer-nav a.active{ 
-    color:blue;
+.footer-nav a:hover,
+.footer-nav a.active {
+    color: blue;
     border-bottom: 3px solid blue;
 }
 
@@ -111,8 +113,8 @@ body{
     overflow: hidden;
 
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -125,7 +127,7 @@ body{
     height: 450px;
     border-radius: 30px;
     float: right;
-} 
+}
 
 
 .card .content {
@@ -133,14 +135,14 @@ body{
     position: relative;
 }
 
-.top-page{
+.top-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .float-right {
-   float:right;
+    float: right;
 }
 
 .float-left {
@@ -158,10 +160,11 @@ button {
     font-size: 15px;
 }
 
-h1{
+h1 {
     color: white;
 }
-p{
+
+p {
     color: white;
     font-size: large;
 }
