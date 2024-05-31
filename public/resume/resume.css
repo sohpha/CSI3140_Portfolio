@@ -1,14 +1,7 @@
-@font-face {
-    font-family: "Poppins", "sans-serif";
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-}
-
 body {
-    margin: 40px;
+    margin: 40px; 
     background: rgb(55,156,154);
     background: linear-gradient(90deg, rgba(55,156,154,1) 5%, rgba(155,64,232,1) 30%, rgba(55,156,154,1) 50%, rgba(155,64,232,1) 70%, rgba(55,156,154,1) 95%);
-    color: white;
-   
 
 }
 
@@ -16,26 +9,6 @@ body {
     flex-direction: column;
 }
 
-h1 {
-    font-size: 40px;
-
-}
-
-h2 {
-    font-size: 30px;
-
-} 
-
-h3 {
-    font-size:20px;
-
-}
-
-li {
-    font-size: 18px;
-
-}
-
-h1, h2, h3, li, b, p {
-    color: white;
+header {
+    text-align: center;
 }
