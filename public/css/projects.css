@@ -17,3 +17,13 @@ body {
     margin-top: 10px;
 
 }
+
+.images{
+    display: grid;
+    gap: 50px;
+}
+.images img{
+   
+    width: 500px;
+    height: auto;
+}
