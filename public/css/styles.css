@@ -193,3 +193,12 @@ li {
 h1, h2, h3, h4, li, p, b {
     color: white;
 }
+
+.links a{
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+    color: rgb(62, 243, 188);
+    text-decoration: underline;
+
+}
